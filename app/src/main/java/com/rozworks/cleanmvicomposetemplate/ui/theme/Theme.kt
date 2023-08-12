@@ -1,4 +1,4 @@
-package com.rozworks.clean_mvi_compose_template.ui.theme
+package com.rozworks.cleanmvicomposetemplate.ui.theme
 
 import android.app.Activity
 import android.os.Build

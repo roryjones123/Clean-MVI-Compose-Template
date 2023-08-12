@@ -1,4 +1,4 @@
-package com.rozworks.clean_mvi_compose_template
+package com.rozworks.cleanmvicomposetemplate
 
 import org.junit.Test
 

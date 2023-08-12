@@ -1,4 +1,4 @@
-package com.rozworks.clean_mvi_compose_template
+package com.rozworks.cleanmvicomposetemplate
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
