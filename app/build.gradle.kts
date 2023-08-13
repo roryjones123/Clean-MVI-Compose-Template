@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.navigation) // needed for Room
     implementation(libs.room.ktx)
     implementation(libs.timber)
+    implementation(libs.compose.material3)
 
     kapt(libs.hilt.compiler)
     ksp(libs.room.compiler)
