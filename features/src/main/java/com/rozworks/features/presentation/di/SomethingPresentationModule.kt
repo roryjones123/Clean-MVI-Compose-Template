@@ -1,7 +1,7 @@
-package com.rozworks.features.di
+package com.rozworks.features.presentation.di
 
 import com.rozworks.core.navigation.NavigationFactory
-import com.rozworks.features.HomepageNavigationFactory
+import com.rozworks.features.presentation.HomepageNavigationFactory
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
