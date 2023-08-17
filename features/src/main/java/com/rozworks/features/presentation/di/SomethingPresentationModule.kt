@@ -11,10 +11,10 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-internal interface CoinsSingletonModule {
+internal interface HomepageSingletonModule {
 
     @Singleton
     @Binds
     @IntoSet
-    fun bindCoinsNavigationFactory(factory: HomepageNavigationFactory): NavigationFactory
+    fun bindHomepageNavigationFactory(factory: HomepageNavigationFactory): NavigationFactory
 }
