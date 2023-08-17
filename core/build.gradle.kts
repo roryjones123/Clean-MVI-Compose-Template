@@ -17,8 +17,9 @@ android {
         targetSdk = 33
     }
 
+    // put URL here
     defaultConfig {
-        buildConfigField("String", "COIN_PAPRIKA_API_URL", "\"https://api.coinpaprika.com/v1/\"")
+        buildConfigField("String", "SOMETHING_API_URL",  "")
     }
 
     buildFeatures {
