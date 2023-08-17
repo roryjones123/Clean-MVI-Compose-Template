@@ -1,6 +1,6 @@
 # Project Template: MVI + Compose/flows + Clean Architecture
 
-Hello! After slogging through the setup of a dozen projects, I decided to create a template (with hopes of expanding into a series) to speed up this process.
+Hello! After slogging through the setup of a dozen projects, I decided to create a template (with hopes of expanding into a series of templates) to speed up this process. This is still very much a WIP.
 
 This template features **MVI + Compose/flows + Clean Architecture**, accompanied by detailed explanations for the design decisions and the associated code. For an in-depth dive, please visit the `docs` folder.
 
