@@ -15,7 +15,7 @@ data class HomepageUiState(
 
     sealed class PartialState {
         data object Loading : PartialState()
-        data class Fetched(val coinList: List<SomethingPresentationObject>) : PartialState()
+        data class DataFetched(val somethings: List<SomethingPresentationObject>) : PartialState()
         data class Error(val throwable: Throwable) : PartialState()
     }
 }

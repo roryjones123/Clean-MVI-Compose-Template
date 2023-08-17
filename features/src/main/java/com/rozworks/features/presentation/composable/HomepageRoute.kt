@@ -10,12 +10,15 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rozworks.features.presentation.HomepageIntent.GetHomepageData
 import com.rozworks.features.presentation.HomepageIntent
 import com.rozworks.features.presentation.HomepageUiState
+import com.rozworks.features.presentation.HomepageViewModel
 
 @Composable
 fun HomepageRoute(
