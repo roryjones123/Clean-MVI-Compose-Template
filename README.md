@@ -22,6 +22,9 @@ To use this project template, follow these easy steps to fetch network data from
    - Revise our mappers and objects, ensuring we don't disclose unnecessary data.
    - Stream this down to the presentation layer.
    - Make the presentation object reflecting the provided data. For a hands-on example, explore the `Pokemon` branch.
+6. **UI Changes**: Display your new presentation object in whatever you would like, by modifying the compose code.
+
+
 
 💡 **Note**: When transforming this into an official project or interview submission, make sure to:
 - Rename all instances of “Something” or “Somethings”.
